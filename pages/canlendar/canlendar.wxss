@@ -1,0 +1,56 @@
+/* pages/canlendar/canlendar.wxss */
+
+.canlendarBgView {
+   background-color: #fff;
+   text-align: cneter;
+   color: #888;
+   font-size: 28rpx;
+}
+
+.rightView, .leftView {
+   font-size: 55rpx;
+}
+
+.centerView {
+   height: 100rpx;
+   line-height: 100rpx;
+}
+
+.canlendarTopView {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.canlendarView {
+   background-color: #f0da12;
+   border-radius: 30rpx;
+   padding: 30rpx;
+}
+
+.weekBgView {
+   display: flex;
+   flex-direction: row;
+   padding: 20rpx 0;
+   font-size: 24rpx;
+}
+
+.weekView {
+   /* flex-grow: 1; */
+   width:14.28%;
+   text-align: center;
+}
+
+.dateBgView {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.dateEmptyView, .dateView {
+   width: 14.28%;
+   text-align: center;
+   padding: 20rpx 0;
+}

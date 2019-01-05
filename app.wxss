@@ -1,10 +1,17 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+@import "/wxss/animation.wxss";
+@import "/wxss/backgroundColor.wxss";
+@import "/wxss/border.wxss";
+@import "/wxss/boxModel.wxss";
+@import "/wxss/buttom.wxss";
+@import "/wxss/dropDownMenu.wxss";
+@import "/wxss/flexLayout.wxss";
+@import "/wxss/font.wxss";
+@import "/wxss/fontColor.wxss";
+@import "/wxss/fontColor.wxss";
+@import "/wxss/layout.wxss";
+@import "wxss/noResult.wxss";
+@import "/wxss/padding.wxss";
+@import "/wxss/width.wxss";
+@import "/wxss/weui.wxss";
+

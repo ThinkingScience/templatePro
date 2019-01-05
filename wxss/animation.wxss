@@ -1,0 +1,55 @@
+/************************ 动画 *************************/
+
+/*
+用法  加上这个就O98K-->
+  animation:loadRotate 8s linear infinite;
+  -webkit-animation:loadRotate 8s linear infinite;
+*/
+
+/* 转圈圈 */
+
+@keyframes loadRotate {
+   from {
+      transform: rotateZ(0deg);
+   }
+
+   to {
+      transform: rotateZ(360deg);
+   }
+}
+
+/* 转圈圈 */
+
+@-webkit-keyframes loadRotate {
+   from {
+      -webkit-transform: rotateZ(0deg);
+   }
+
+   to {
+      -webkit-transform: rotateZ(360deg);
+   }
+}
+
+/* 淡入效果 */
+
+@keyframes fadeIn {
+   from {
+      opacity: 0.1;
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+/* 淡入效果 */
+
+@-webkit-keyframes fadeIn {
+   from {
+      opacity: 0.1;
+   }
+
+   to {
+      opacity: 1;
+   }
+}

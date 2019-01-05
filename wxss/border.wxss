@@ -1,0 +1,19 @@
+/************************ 线条 *************************/
+
+/* 底部线条 */
+
+.border_bottom {
+   border-bottom: 1px #f0eff5 solid;
+}
+
+/* 顶部线条 */
+
+.border_top {
+   border-top: 1px #f0eff5 solid;
+}
+
+/* 文字下划线 */
+
+.underline {
+   text-decoration: underline;
+}

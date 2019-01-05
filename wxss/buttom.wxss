@@ -1,0 +1,28 @@
+/************************ 按钮 *************************/
+
+/* 常规按钮 */
+
+.button_conventional {
+   height: 80rpx;
+   line-height: 80rpx;
+   padding: 0 30rpx;
+   color: #fff;
+}
+
+.from_view_css {
+   width: 100%;
+   height: auto;
+}
+
+/* 通用大按钮 */
+
+.big_btn {
+   width: 80%;
+   margin: 30rpx 10%;
+   border-radius: 15rpx;
+   height: 100rpx;
+   line-height: 100rpx;
+   color: #fff;
+   background: linear-gradient(to bottom right, #efa0ff, #8850f8);
+   font-size: 28rpx;
+}

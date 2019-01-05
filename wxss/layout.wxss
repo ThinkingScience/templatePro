@@ -1,0 +1,63 @@
+/************************ 布局 *************************/
+
+/* flex横向 允许换行*/
+
+.flex_row {
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: row;
+   -webkit-flex-direction: row;
+   flex-wrap: wrap;
+}
+
+/* flex横向不允许换行 */
+
+.flex_row_nowrap {
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: row;
+   -webkit-flex-direction: row;
+}
+
+/* flex横逆向 */
+
+.flex_row_reverse {
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: row-reverse;
+   -webkit-flex-direction: row-reverse;
+}
+
+/* flex竖向 */
+
+.flex_column {
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: column;
+   -webkit-flex-direction: column;
+}
+
+.flex_start {
+   justify-content: start;
+   -webkit-flex-justify-content: start;
+   align-items: flex-start;
+   align-content: flex-start;
+   -webkit-align-items: flex-start;
+   -webkit-align-content: flex-start;
+}
+
+/* 垂直居中 */
+
+.vertical_center {
+   align-content: center;
+   align-items: center;
+   -webkit-align-content: center;
+   -webkit-align-items: center;
+}
+
+/* 水平居中 */
+
+.horizontally {
+   justify-content: center;
+   -webkit-justify-content: center;
+}

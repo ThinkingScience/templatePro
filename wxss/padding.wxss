@@ -1,0 +1,179 @@
+/************************ 填充 *************************/
+
+/* 全部padding */
+
+.padding_30, .p_30 {
+   padding: 30rpx;
+}
+
+.padding_25, .p_25 {
+   padding: 25rpx;
+}
+
+.padding_20, .p_20 {
+   padding: 20rpx;
+}
+
+.padding_15, .p_15 {
+   padding: 15rpx;
+}
+
+.padding_10, .p_10 {
+   padding: 10rpx;
+}
+
+.padding_5, .p_5 {
+   padding: 5rpx;
+}
+
+/* 左右padding */
+
+.padding_left_right_30, plr_30 {
+   padding: 0 30rpx;
+}
+
+.padding_left_right_25, plr_25 {
+   padding: 0 25rpx;
+}
+
+.padding_left_right_20, plr_20 {
+   padding: 0 20rpx;
+}
+
+.padding_left_right_15, plr_15 {
+   padding: 0 15rpx;
+}
+
+.padding_left_right_10, plr_10 {
+   padding: 0 10rpx;
+}
+
+.padding_left_right_5, plr_5 {
+   padding: 0 5rpx;
+}
+
+/* 上下padding */
+
+.padding_top_bottom_30, .ptb_30 {
+   padding: 30rpx 0;
+}
+
+.padding_top_bottom_20, ptb_20 {
+   padding: 20rpx 0;
+}
+
+.padding_top_bottom_15, ptb_15 {
+   padding: 15rpx 0;
+}
+
+.padding_top_bottom_10, ptb_10 {
+   padding: 10rpx 0;
+}
+
+.padding_top_bottom_5, ptb_5 {
+   padding: 5rpx 0;
+}
+
+/* 上padding */
+
+.padding_top_30, pt_30 {
+   padding-top: 30rpx;
+}
+
+.padding_top_25, pt_25 {
+   padding-top: 25rpx;
+}
+
+.padding_top_20, pt_20 {
+   padding-top: 20rpx;
+}
+
+.padding_top_15, pt_15 {
+   padding-top: 15rpx;
+}
+
+.padding_top_10, pt_10 {
+   padding-top: 10rpx;
+}
+
+.padding_top_5, pt_5 {
+   padding-top: 5rpx;
+}
+
+/* 右padding */
+
+.padding_right_30, pr_30 {
+   padding-right: 30rpx;
+}
+
+.padding_right_25, pr_25 {
+   padding-right: 25rpx;
+}
+
+.padding_right_20, pr_20 {
+   padding-right: 20rpx;
+}
+
+.padding_right_15, pr_15 {
+   padding-right: 15rpx;
+}
+
+.padding_right_10, pr_10 {
+   padding-right: 10rpx;
+}
+
+.padding_right_5, pr_5 {
+   padding-right: 5rpx;
+}
+
+/* 下padding */
+
+.padding_bottom_30, pb_30 {
+   padding-bottom: 30rpx;
+}
+
+.padding_bottom_25, pb_25 {
+   padding-bottom: 25rpx;
+}
+
+.padding_bottom_20, pb_20 {
+   padding-bottom: 20rpx;
+}
+
+.padding_bottom_15, pb_15 {
+   padding-bottom: 15rpx;
+}
+
+.padding_bottom_10, pb_10 {
+   padding-bottom: 10rpx;
+}
+
+.padding_bottom_5, pb_5 {
+   padding-bottom: 5rpx;
+}
+
+/* 左padding */
+
+.padding_left_30, pl_30 {
+   padding-left: 30rpx;
+}
+
+.padding_left_25, pl_25 {
+   padding-left: 25rpx;
+}
+
+.padding_left_20, pl_20 {
+   padding-left: 20rpx;
+}
+
+.padding_left_15, pl_15 {
+   padding-left: 15rpx;
+}
+
+.padding_left_10, pl_10 {
+   padding-left: 10rpx;
+}
+
+.padding_left_5, pl_5 {
+   padding-left: 5rpx;
+}

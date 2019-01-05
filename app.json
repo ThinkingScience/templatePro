@@ -1,5 +1,7 @@
 {
   "pages":[
+     "pages/canlendarTopBottomSlide/canlendarTopBottomSlide",
+     "pages/canlendar/canlendar",
     "pages/index/index",
     "pages/logs/logs"
   ],

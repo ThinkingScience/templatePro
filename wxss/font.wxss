@@ -1,0 +1,102 @@
+/************************ 字体 *************************/
+
+/* 正文文字 */
+
+.text_content {
+   font-size: 28rpx;
+   color: rgba(50, 50, 50, 0.8);
+   line-height: 40rpx;
+}
+
+/* 小标题文字 */
+
+.title_content_little {
+   font-size: 32rpx;
+   color: rgba(50, 50, 50, 1);
+   line-height: 50rpx;
+}
+
+/* 大标题文字 */
+
+.title_content_large {
+   font-size: 40rpx;
+   color: rgba(30, 30, 30, 1);
+   line-height: 60rpx;
+}
+
+/* 小字 */
+
+.small_content {
+   font-size: 24rpx;
+   color: rgba(50, 50, 50, 0.8);
+}
+
+/* 文字太长显示省略号 */
+
+.over_show_ellipsis {
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+/* 文字太长显示省略号 */
+
+.over_show_ellipsis_2 {
+   text-overflow: -o-ellipsis-lastline;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+
+/* 文字太长显示省略号 */
+
+.over_show_ellipsis_3 {
+   text-overflow: -o-ellipsis-lastline;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+}
+
+/* 文字太长显示省略号 */
+
+.over_show_ellipsis_4 {
+   text-overflow: -o-ellipsis-lastline;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+/* 文字太长显示省略号 */
+
+.over_show_ellipsis_5 {
+   text-overflow: -o-ellipsis-lastline;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5;
+   -webkit-box-orient: vertical;
+}
+
+/* 中划线文字 */
+
+.center_line_text {
+   text-decoration: line-through;
+}
+
+/* 文字居中 */
+
+.text_center {
+   text-align: center;
+}
+
+/* 文字靠右 */
+
+.text_right {
+   text-align: right;
+}

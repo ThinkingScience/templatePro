@@ -1,0 +1,37 @@
+<!--pages/canlendarTopBottomSlide/canlendarTopBottomSlide.wxml-->
+<view class="headbox2">
+  <view class="headdate">日</view>
+  <view class="headdate">一</view>
+  <view class="headdate">二</view>
+  <view class="headdate">三</view>
+  <view class="headdate">四</view>
+  <view class="headdate">五</view>
+  <view class="headdate">六</view>
+</view>
+<view class="headbox">
+  <view class="headdate">日</view>
+  <view class="headdate">一</view>
+  <view class="headdate">二</view>
+  <view class="headdate">三</view>
+  <view class="headdate">四</view>
+  <view class="headdate">五</view>
+  <view class="headdate">六</view>
+</view>
+<view class="mouth" wx:for="{{date}}" wx:for-item="date" wx:for-index="index">
+  <view class="mouthhead">{{date[index].year}}年{{date[index].month}}月</view>
+  <view class="daybox">
+  <view class="day" wx:if="{{weeks[index]>0}}"></view>
+  <view class="day" wx:if="{{weeks[index]>1}}"></view>
+  <view class="day" wx:if="{{weeks[index]>2}}"></view>
+  <view class="day" wx:if="{{weeks[index]>3}}"></view>
+  <view class="day" wx:if="{{weeks[index]>4}}"></view>
+  <view class="day" wx:if="{{weeks[index]>5}}"></view>
+  <view class="day {{item.selected == 1 ? 'bc':''}}" wx:for="{{date}}" wx:for-index="idx" data-index="{{index}}" data-indexs="{{idx}}" bindtap="selectday">
+    <view class="actname {{item.selected == 1 ? 'bc2':''}}">{{date[idx].act.subject}}</view>
+    {{date[idx].day}}
+    <view class="actname2 {{item.selected == 1 ? 'bc2':''}}" wx:if="{{date[idx].act.rate}}">{{date[idx].act.rate/10}}折</view>
+  </view>
+  </view>
+</view>
+<view class="none88" wx:if="{{pagetype=='day'}}"></view>
+<view class="fixedbtn" bindtap="submitbtn" wx:if="{{pagetype=='day'}}">确认选择</view>

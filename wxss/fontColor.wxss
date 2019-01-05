@@ -1,0 +1,73 @@
+/************************ 字体颜色 *************************/
+
+/* 主题色字体 */
+
+.main_cor {
+   color: #8850f8;
+}
+
+/* 浅灰字体 */
+
+.light_grey_cor {
+   color: #f0eff5;
+}
+
+/* 深灰字体 */
+
+.dark_grey_cor {
+   color: #ccc;
+}
+
+/* 浅黑字体 */
+
+.light_black_cor {
+   color: #aaa;
+}
+
+/* 白色字体 */
+
+.white_cor {
+   color: #fff;
+}
+
+/* 赤色字体 */
+
+.red_cor {
+   color: #ff5722;
+}
+
+/* 正红字体 */
+
+.zred_cor {
+   color: #fd0e0e;
+}
+
+/* 橙色字体 */
+
+.orange_cor {
+   color: #ffb800;
+}
+
+/* 墨绿字体 */
+
+.green_cor {
+   color: #009688;
+}
+
+/* 藏青字体 */
+
+.cyan_cor {
+   color: #2f4056;
+}
+
+/* 蓝色字体 */
+
+.blue_cor {
+   color: #1e9fff;
+}
+
+/* 雅黑字体 */
+
+.black_cor {
+   color: #393d49;
+}

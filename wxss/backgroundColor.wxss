@@ -1,0 +1,71 @@
+/************************ 背景色 *************************/
+
+.main_bg_pure {
+   background: #8850f8;
+}
+
+/* 主题颜色 */
+
+.main_bg {
+   background: linear-gradient(to bottom right, #efa0ff, #8850f8);
+}
+
+/* 浅灰背景 */
+
+.light_grey_bg {
+   background: #f0eff5;
+}
+
+/* 深灰背景 */
+
+.dark_grey_bg {
+   background: #ccc;
+}
+
+/* 浅黑背景 */
+
+.light_black_bg {
+   background: #aaa;
+}
+
+/* 白色背景 */
+
+.white_bg {
+   background: #fff;
+}
+
+/* 赤色背景 */
+
+.red_bg {
+   background: #ff5722;
+}
+
+/* 橙色背景 */
+
+.orange_bg {
+   background: #ffb800;
+}
+
+/* 墨绿背景 */
+
+.green_bg {
+   background: #009688;
+}
+
+/* 藏青背景 */
+
+.cyan_bg {
+   background: #2f4056;
+}
+
+/* 蓝色背景 */
+
+.blue_bg {
+   background: #1e9fff;
+}
+
+/* 雅黑背景 */
+
+.black_bg {
+   background: #393d49;
+}
